@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: jost;
+}
+
+.box{
+    width: 900px;
+    border: 1px solid rgba(5, 5, 45, 0.231);
+   margin-left: 70px;
+  
+}
+.card{
+    overflow: visible;
+    transition: transform 0.8s ease-in-out;
+       
+}
+
+.card:hover{
+    transform: scale(1.1);
+   
+  
+}
